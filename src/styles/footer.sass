@@ -1,0 +1,17 @@
+@import _vars
+
+.footer
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    align-items: flex-start
+    width: 100%
+    @include box-size(60px, 0, 5px )
+    p
+        font-weight: 600
+        color: $color-green-second
+    div
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        img
+            width: 240px

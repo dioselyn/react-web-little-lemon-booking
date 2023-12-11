@@ -1,0 +1,36 @@
+@import _vars
+
+.section-banner
+  background-image: url('../assets/restaurant.jpg')
+  min-height: 410px
+  background-size: cover
+  background-repeat: no-repeat
+  width: 100%
+  background-position: center
+  position: relative
+  z-index: 0
+  &_shadown
+    position: absolute
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    background-color: #031811d8
+    display: flex
+    justify-content: center
+    align-items: center
+  &_content
+    display: flex
+    align-items: center
+    @include box-size
+  &_info
+    padding: 0 84px 0 0
+    color: white
+    h1
+      color: $color-yellow-main
+    button
+      @include button_primary
+  &_img
+    img
+      width: 400px
+    

@@ -1,0 +1,22 @@
+//Colors
+$color-yellow-main: #F4CE14
+$color-green-main: #394945
+$color-orange-main: #EE9972
+$color-border: #e2dbdb
+$color-green-second: #495E57
+
+
+@mixin box-size($pt: 60px, $px: 0px, $pb: 60px)
+      padding: $pt $px $pb
+      max-width: 1280px !important
+
+@mixin button_primary
+      color: $color-green-main
+      background:  $color-yellow-main
+      border: none
+
+@mixin button_secondary
+      color: white
+      background: $color-green-main
+      border: none
+      font-size: 14px

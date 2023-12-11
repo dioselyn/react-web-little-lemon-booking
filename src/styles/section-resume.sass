@@ -1,0 +1,26 @@
+.section-resume
+    display: flex
+    margin-bottom: 164px
+    @include box-size
+    &_gallery
+        position: relative
+        z-index: 0
+        &_1
+            position: absolute
+            z-index: 2
+            right: 0
+        &_2
+            position: absolute
+            right: 240px
+            top: 100px
+            z-index: 1
+        img
+            width: 320px
+            height: 350px
+            border-radius: 4px
+    p
+        padding-right: 50%
+    &_info
+        display: flexbox
+        align-items: center
+        padding-top: 68px
